@@ -1,0 +1,46 @@
+/* Swimaster — design tokens. Clean / fresh / aquatic. Swiss magazine-grid.
+   Grounded: their cobalt 'swimaster' wordmark (#2F68A2) + pool-water turquoise + crisp white.
+   Distinct from prior builds (Ellie's=sage serif, PT=rose Playfair, Fencing=earth Archivo). */
+:root{
+  /* palette — pool/aquatic */
+  --foam:      #F4F9FB;   /* crisp cool ground */
+  --paper:     #FFFFFF;
+  --mist:      #E6F1F6;   /* pale water-tint surface */
+  --aqua:      #15B0C7;   /* bright pool turquoise — signature accent */
+  --aqua-deep: #0E8DA3;
+  --blue:      #1E6FB0;   /* brand cobalt — their wordmark blue */
+  --blue-deep: #0C4C82;
+  --navy:      #0B2A45;   /* deep water — dark bands */
+  --navy-ink:  #0A1E32;
+  --ink:       #12222E;   /* text */
+  --ink-soft:  #51677A;
+  --sun:       #F2B441;   /* warm gold micro-pop — sunlight on water, sparingly */
+  --line:      rgba(11,42,69,.13);
+  --line-soft: rgba(11,42,69,.07);
+
+  /* type */
+  --f-display: "Bricolage Grotesque", "Helvetica Neue", Arial, sans-serif;
+  --f-body:    "Hanken Grotesk", "Helvetica Neue", Arial, sans-serif;
+  --t-hero:  clamp(3rem, 7vw, 6rem);
+  --t-h2:    clamp(2.1rem, 4.4vw, 3.6rem);
+  --t-h3:    clamp(1.3rem, 2vw, 1.7rem);
+  --t-mega:  clamp(2.6rem, 7vw, 6.5rem);   /* big-type-index numerals */
+  --t-body:  1.06rem;
+  --t-kicker:.76rem;
+
+  /* spacing */
+  --s-2:.5rem; --s-3:.85rem; --s-4:1.4rem; --s-5:2.2rem; --s-6:3.4rem; --s-7:clamp(4rem,9vw,7.5rem);
+  --maxw:1180px;
+
+  /* radii — crisp, Swiss (tighter than the organic cafe build) */
+  --r-sm:8px; --r-md:14px; --r-lg:22px; --r-pill:999px;
+
+  /* shadows — cool, clean */
+  --shadow-soft: 0 18px 50px -24px rgba(11,42,69,.34);
+  --shadow-card: 0 10px 28px -16px rgba(11,42,69,.26);
+
+  /* motion */
+  --dur:.5s;
+  --ease: cubic-bezier(.22,1,.36,1);
+  --ease-out: cubic-bezier(.16,1,.3,1);
+}
